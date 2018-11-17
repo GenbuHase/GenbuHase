@@ -27,6 +27,6 @@ gulp.task("scss-compile", () => {
 		.pipe(gulp.dest("./src/css"));
 });
 
-
-
-/* eslint-env node */
+gulp.task("html-compile", () => {
+	
+});
