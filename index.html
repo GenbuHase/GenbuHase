@@ -9,7 +9,7 @@
 		
 		<Meta Name = "Viewport" Content = "Width=Device-Width, Initial-Scale=1, User-Scalable=No" />
 
-		<Link Rel = "StyleSheet" Href = "/css/common.css" />
+		<Link Rel = "StyleSheet" Href = "/css/common.css" /><Link Rel = "StyleSheet" Href = "./Portfolio.css" />
 
 		<Script Src = "/js/common.js"></Script>
 		
@@ -45,7 +45,7 @@
 					<Span Class = "badge new" Data-Badge-Caption = "more">5</Span>
 
 					<Div Class = "background"></Div>
-					<Img Class = "user-state--photo circle" Src = "/assets/profile-current.png" />
+					<Img Class = "user-state--photo circle" Src = "/Portfolio/assets/account/Google+/005.png" />
 					<Span Class = "name user-state--name">やさしくなーいげんちゃん。</Span>
 					<Span Class = "email user-state--email">In a lot of places!</Span>
 				</Div>
@@ -76,8 +76,37 @@
 		</UL>
 
 		<Main>
+			<H2 ID = "account" Class = "heading">各種アカウント</H2>
+			
 			<Article>
+				<H3 Class = "subheading subheading-1">Google+</H3>
+				<A Class = "account card" Href = "https://plus.google.com/106666684430101995501" Target = "_blank">
+					<Div Class = "account-info card-image">
+						<Img Class = "account-info-image" Src = "./assets/account/Google+/005.png" />
+						<Span Class = "account-info-name card-title">やさしくなーいげんちゃん。</Span>
+					</Div>
+				</A>
 
+				<H3 Class = "subheading subheading-1">Mastodon</H3>
+				<Div Class = "carousel">
+					<Div Class = "carousel-item">
+						<A Class = "account card" Href = "https://itabashi.0j0.jp/@ProgrammerGenboo" Target = "_blank">
+							<Div Class = "account-info card-image">
+								<Img Class = "account-info-image" Src = "./assets/account/Mastodon/itabashi-0j0-jp,qiitadon-com.png" />
+								<Span Class = "account-info-name card-title">✨板橋の玄ちゃんとかいう怪人。✨</Span>
+							</Div>
+						</A>
+					</Div>
+
+					<Div Class = "carousel-item">
+						<A Class = "account card" Href = "https://knzk.me/@ProgrammerGenboo" Target = "_blank">
+							<Div Class = "account-info card-image">
+								<Img Class = "account-info-image" Src = "./assets/account/Mastodon/knzk-me,oransns-com.png" />
+								<Span Class = "account-info-name card-title">✨玄ちゃんおねーちゃん。✨</Span>
+							</Div>
+						</A>
+					</Div>
+				</Div>
 			</Article>
 		</Main>
 	</Body>

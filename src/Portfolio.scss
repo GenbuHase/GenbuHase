@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.account {
+	display: inline-block;
+	
+	.account-info {
+		.account-info-name {
+			width: 100%;
+			background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.46));
+		}
+	}
+}
+
+:not(.carousel-item) {
+	> .account {
+		height: 400px;
+
+		.account-info {
+			height: 100%;
+
+			.account-info-image {
+				width: auto;
+				height: 100%;
+			}
+		}
+	}
+}
+
+.carousel-item {
+	> .account {
+		.account-info {
+			.account-info-name {
+				font-size: 1em;
+			}
+		}
+	}
+}
