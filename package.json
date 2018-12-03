@@ -1,17 +1,15 @@
 {
 	"name": "genbuhase-portfolio",
 	"version": "0.0.1",
-	"description": "A portfolio about GenbuHase!!",
+	"description": "A portfolio of GenbuHase!!",
 	"main": "gulpfile.js",
 	"dependencies": {
 		"gulp": "^3.9.1",
+		"gulp-concat": "^2.6.1",
 		"gulp-ejs": "^3.3.0",
 		"gulp-plumber": "^1.2.0",
 		"gulp-rename": "^1.4.0",
-		"gulp-sass": "^4.0.2",
-		"uglifyjs-webpack-plugin": "^2.0.1",
-		"webpack": "^4.25.1",
-		"webpack-stream": "^5.1.1"
+		"gulp-sass": "^4.0.2"
 	},
 	"devDependencies": {},
 	"scripts": {
@@ -22,9 +20,9 @@
 		"url": "git+https://github.com/GenbuHase/Portfolio.git"
 	},
 	"author": "Genbu Hase (https://genbuhase.github.io/)",
-	"license": "MIT",
+	"license": "No License",
 	"bugs": {
 		"url": "https://github.com/GenbuHase/Portfolio/issues"
 	},
-	"homepage": "https://github.com/GenbuHase/Portfolio#readme"
+	"homepage": "https://genbuhase.github.io/Portfolio/"
 }

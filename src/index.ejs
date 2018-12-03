@@ -1,3 +1,11 @@
-<%- include("./_template-header") %>
-		
-<%- include("./_template-footer") %>
+<%
+	include("./!templates/_global");
+%><%-
+	include("./!templates/_header", {
+		name: "Portfolio",
+		title: "About Me"
+	}) %>
+			<Article>
+
+			</Article>
+<%- include("./!templates/_footer") %>

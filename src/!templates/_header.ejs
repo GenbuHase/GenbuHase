@@ -1,18 +1,44 @@
-<!DocType HTML>
+<%
+	include("./_global");
+
+	init({
+		name: '""',
+		title: '""',
+		favicon: 'null',
+		libraries: '[]',
+		isHome: 'false',
+		hasScript: 'false',
+		hasStyle: 'false'
+	});
+%><!DocType HTML>
 
 <HTML>
 	<Head>
 		<Meta Charset = "UTF-8" />
-		<Title>About Me｜どっかのプログラなーいのサイト。</Title>
+		<Title><%= isHome ? (title ? title : SITENAME) : (title ? `${title}｜${SITENAME}` : SITENAME) %></Title>
 		
-		
-		
+		<%- (!isHome && !favicon) ? '' : `<Link Rel = "Icon" Href = "${isHome ? "favicon.ico" : (favicon ? favicon : "")}" />` %>
+		<%- isHome ? '<Link Rel = "Canonical" Href = "https://genbuhase.github.io/" />' : '' %>
 		<Meta Name = "Viewport" Content = "Width=Device-Width, Initial-Scale=1, User-Scalable=No" />
 
-		<Link Rel = "StyleSheet" Href = "/css/common.css" />
+		<Link Rel = "StyleSheet" Href = "/css/common.css" /><%-
+		hasStyle ? `<Link Rel = "StyleSheet" Href = "./${name}.css" />` : '' %>
 
-		<Script Src = "/js/common.js"></Script>
-		
+		<Script Src = "/js/common.js"></Script><%-
+		hasScript ? `<Script Src = "./${name}.js"></Script>` : '' %>
+		<%
+			for (const lib of libraries) {
+				var tag = "";
+
+				switch (lib.type) {
+					case "SCRIPT":
+						tag = `<Script Src = "${lib.src}"></Script>`;
+						break;
+					case "STYLE":
+						tag = `<Link Rel = "StyleSheet" Href = "${lib.src}" />`;
+						break;
+				} %><%- tag %>
+		<%	} %>
 		
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<Script Src = "https://www.googletagmanager.com/gtag/js?id=UA-111257667-1" Async></Script>
@@ -34,7 +60,7 @@
 						<I Class = "material-icons">menu</I>
 					</A>
 
-					<Span Class = "brand-logo">About Me｜どっかのプログラなーいのサイト。</Span>
+					<Span Class = "brand-logo"><%= isHome ? (title ? title : SITENAME) : (title ? `${title}｜${SITENAME}` : SITENAME) %></Span>
 				</Div>
 			</Nav>
 		</Header>
@@ -76,9 +102,3 @@
 		</UL>
 
 		<Main>
-			<Article>
-
-			</Article>
-		</Main>
-	</Body>
-</HTML>
