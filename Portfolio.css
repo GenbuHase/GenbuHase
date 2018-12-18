@@ -1,3 +1,16 @@
+.collection-hive {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.collection-hive .collection-item {
+  border-bottom: none;
+}
+
+.collection-hive .spacer {
+  width: 100%;
+}
+
 .account {
   display: inline-block;
 }

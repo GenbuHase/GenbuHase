@@ -1,5 +1,18 @@
 @charset "UTF-8";
 
+.collection-hive {
+	display: flex;
+	flex-wrap: wrap;
+
+	.collection-item {
+		border-bottom: none;
+	}
+
+	.spacer {
+		width: 100%;
+	}
+}
+
 .account {
 	display: inline-block;
 	
