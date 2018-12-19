@@ -1,3 +1,7 @@
+.collection .collection-item .title + * {
+  margin: 1em 0;
+}
+
 .collection-hive {
   display: flex;
   flex-wrap: wrap;
@@ -9,6 +13,10 @@
 
 .collection-hive .spacer {
   width: 100%;
+}
+
+details[open] {
+  margin: 1em 0;
 }
 
 .account {
