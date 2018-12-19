@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .collection {
-	.collection-item {
+	.collection-item:not(.avatar) {
 		.title + * {
 			margin: 1em 0;
 		}

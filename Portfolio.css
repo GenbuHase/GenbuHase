@@ -1,4 +1,4 @@
-.collection .collection-item .title + * {
+.collection .collection-item:not(.avatar) .title + * {
   margin: 1em 0;
 }
 
