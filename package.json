@@ -4,7 +4,7 @@
 	"description": "A portfolio of GenbuHase!!",
 	"main": "gulpfile.js",
 	"dependencies": {
-		"gulp": "^3.9.1",
+		"gulp": "^4.0.2",
 		"gulp-concat": "^2.6.1",
 		"gulp-ejs": "^3.3.0",
 		"gulp-plumber": "^1.2.0",
