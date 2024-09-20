@@ -1,4 +1,4 @@
-# 長谷 玄武(Genbu Hase)
+# 長谷 玄武 (Genbu Hase)
 
 ## 📊 Stats
 
