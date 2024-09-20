@@ -1,30 +1,13 @@
 # 長谷 玄武(Genbu Hase)
 
-## 🕴️ Careers / Activities
-
-| 時期       | 内容                                                                                    |
-| :--------- | :-------------------------------------------------------------------------------------- |
-| 2021年4月  | 埼玉大学 教育学部 学校教育教員養成課程 特別支援教育コースに入学                             |
-| 2021年11月 | 埼玉大学手話サークル ゆびつむぎを創設し、代表に就任                                        |
-| 2022年3月  | 埼玉大学手話サークル ゆびつむぎ 第2期代表に就任                                            |
-| 2022年10月 | 埼玉大学より埼大学生広報サポーター 第1期生として任命を受ける                                |
-| 2023年3月  | 埼玉大学手話サークル ゆびつむぎ 第3期広報部長に就任                                        |
-| 2023年4月  | 教育学部 特別支援教育コース 2023年度 裏ガイダンスを新規に企画・実施                         |
-| 2023年7月  | 埼玉大学学生団体FP主催「Saidai Contest 2023」に出場                                       |
-| 2023年11月 | 埼玉大学学生団体FP主催「Saidai Contest 2023」にて準グランプリ・うどん県賞を受賞             |
-| 2024年1月  | 学生団体MARKS・株式会社エイジ・エンタテインメント主催「MR OF MR CAMPUS CONTEST 2024」に出場 |
-| 2024年3月  | 埼玉大学手話サークル ゆびつむぎ 第3期広報部長を退任                                         |
-| 2024年3月  | 埼玉大学メイド部を創設し、代表に就任                                                       |
-| 2024年4月  | 教育学部 特別支援教育コース 2024年度 裏ガイダンスを企画・実施                               |
-| 2024年9月  | 埼玉大学障がい学生支援室 パソコンノートテイカーとして任命を受ける                            |
-| 2025年3月  | 埼玉大学 教育学部 学校教育教員養成課程 特別支援教育コースを卒業見込み                        |
-
-
 ## 📊 Stats
 
-![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=GenbuHase&show_icons=true&include_all_commits=true)
+<p align="left">
+  <img alt="My GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=GenbuHase&show_icons=true&include_all_commits=true" height="192" />
+  <img alt="My Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GenbuHase&layout=donut" height="192" />
+</p>
 
-![My Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=GenbuHase&layout=donut)
+![My GitHub Trophy](https://github-profile-trophy.vercel.app/?username=GenbuHase&theme=flat&margin-w=4&margin-h=4&column=-1)
 
 
 ## 🔧 Skills
@@ -49,3 +32,37 @@
 * 2025/03　高等学校教諭一種免許状(英語)を取得見込み
 * 2025/03　特別支援学校教諭一種免許状を取得見込み
 * 2025/03　幼稚園教諭二種免許状を取得見込み
+
+
+## 🕴️ Careers / Activities
+
+| 時期       | 内容                                                                                    |
+| :--------- | :-------------------------------------------------------------------------------------- |
+| 2021年4月  | 埼玉大学 教育学部 学校教育教員養成課程 特別支援教育コースに入学                             |
+| 2021年11月 | 埼玉大学手話サークル ゆびつむぎを創設し、代表に就任                                        |
+| 2022年3月  | 埼玉大学手話サークル ゆびつむぎ 第2期代表に就任                                            |
+| 2022年10月 | 埼玉大学より埼大学生広報サポーター 第1期生として任命を受ける                                |
+| 2023年3月  | 埼玉大学手話サークル ゆびつむぎ 第3期広報部長に就任                                        |
+| 2023年4月  | 教育学部 特別支援教育コース 2023年度 裏ガイダンスを新規に企画・実施                         |
+| 2023年7月  | 埼玉大学学生団体FP主催「Saidai Contest 2023」に出場                                       |
+| 2023年11月 | 埼玉大学学生団体FP主催「Saidai Contest 2023」にて準グランプリ・うどん県賞を受賞             |
+| 2024年1月  | 学生団体MARKS・株式会社エイジ・エンタテインメント主催「MR OF MR CAMPUS CONTEST 2024」に出場 |
+| 2024年3月  | 埼玉大学手話サークル ゆびつむぎ 第3期広報部長を退任                                         |
+| 2024年3月  | 埼玉大学メイド部を創設し、代表に就任                                                       |
+| 2024年4月  | 教育学部 特別支援教育コース 2024年度 裏ガイダンスを企画・実施                               |
+| 2024年9月  | 埼玉大学障がい学生支援室 パソコンノートテイカーとして任命を受ける                            |
+| 2025年3月  | 埼玉大学 教育学部 学校教育教員養成課程 特別支援教育コースを卒業見込み                        |
+
+
+## 👤 Contacts
+
+### Twitter (Currently 𝕏)
+
+* [長谷 玄武 / Genbu Hase (@GenbuHase)](https://twitter.com/GenbuHase)
+* [どっかのげんちゃん。 (@GenInAnywhere)](https://twitter.com/GenInAnywhere)
+* [めんつゆ。 (@SU_Mentsuyu)](https://twitter.com/SU_Mentsuyu)
+
+### Instagram
+
+* [長谷 玄武 / Genbu Hase (@genbuhase)](https://www.instagram.com/genbuhase)
+* [どっかのげんちゃん。 (@programmergenboo)](https://www.instagram.com/programmergenboo)
