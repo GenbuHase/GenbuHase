@@ -7,7 +7,7 @@
   <img alt="My Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GenbuHase&layout=donut" height="192" />
 </p>
 
-![My GitHub Trophy](https://github-profile-trophy.vercel.app/?username=GenbuHase&theme=flat&margin-w=4&margin-h=4&column=-1)
+![My GitHub Trophy](https://github-profile-trophy.vercel.app/?username=GenbuHase&theme=flat&margin-w=4&margin-h=4&column=7)
 
 
 ## 🔧 Skills
