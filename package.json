@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "genbuhase-portfolio",
-  "version": "0.1.0.1",
+  "version": "0.1.0.2",
   "description": "GenbuHase's Portfolio",
   "author": "Genbu Hase (https://genbuhase.github.io/)",
   "main": "index.js",
@@ -16,6 +16,10 @@
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "daisyui": "^4.12.10"
   },
   "homepage": "https://genbuhase.github.io/GenbuHase/",
   "repository": {

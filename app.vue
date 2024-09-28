@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <button class="btn">Hello daisyUI</button>
   </div>
 </template>
