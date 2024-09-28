@@ -7,10 +7,10 @@
         </div>
 
         <div class="hidden lg:flex lg:gap-x-20">
-          <NuxtLink to="#" class="font-semibold leading-6">Home</NuxtLink>
-          <NuxtLink to="#" class="font-semibold leading-6">Profile</NuxtLink>
-          <NuxtLink to="#" class="font-semibold leading-6">History</NuxtLink>
-          <NuxtLink to="#" class="font-semibold leading-6">Projects</NuxtLink>
+          <NuxtLink to="/" class="font-semibold leading-6">Home</NuxtLink>
+          <NuxtLink to="/profile" class="font-semibold leading-6">Profile</NuxtLink>
+          <NuxtLink to="/history" class="font-semibold leading-6">History</NuxtLink>
+          <NuxtLink to="/projects" class="font-semibold leading-6">Projects</NuxtLink>
         </div>
 
         <div class="flex lg:hidden">
@@ -44,10 +44,10 @@
           <div class="mt-6 flow-root">
             <div class="-my-6 divide-y divide-gray-500/10">
               <div class="space-y-2 py-6">
-                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Home</a>
-                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Profile</a>
-                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">History</a>
-                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Projects</a>
+                <NuxtLink to="/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Home</NuxtLink>
+                <NuxtLink to="/profile" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Profile</NuxtLink>
+                <NuxtLink to="/history" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">History</NuxtLink>
+                <NuxtLink to="/projects" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Projects</NuxtLink>
               </div>
             </div>
           </div>

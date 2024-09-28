@@ -9,6 +9,10 @@
     font-family: "Zen Maru Gothic";
   }
 
+  .material-icons {
+    font-family: "Material Symbols Outlined";
+  }
+
   .brand-name {
     @apply font-extrabold;
     @apply uppercase;

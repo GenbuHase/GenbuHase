@@ -7,6 +7,7 @@ export default defineNuxtConfig({
 
   googleFonts: {
     families: {
+      "Material+Symbols+Outlined": true,
       "Zen+Maru+Gothic": true
     }
   }
