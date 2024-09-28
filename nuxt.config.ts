@@ -2,6 +2,12 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-09-28',
 
-  modules: ['@nuxtjs/tailwindcss'],
-  devtools: { enabled: true }
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts'],
+  devtools: { enabled: true },
+
+  googleFonts: {
+    families: {
+      "Zen+Maru+Gothic": true
+    }
+  }
 })
