@@ -1,11 +1,21 @@
 {
+  "type": "module",
   "name": "genbuhase-portfolio",
-  "version": "0.1.0",
+  "version": "0.1.0.1",
   "description": "GenbuHase's Portfolio",
   "author": "Genbu Hase (https://genbuhase.github.io/)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.13.0",
+    "vue": "latest",
+    "vue-router": "latest"
   },
   "homepage": "https://genbuhase.github.io/GenbuHase/",
   "repository": {
