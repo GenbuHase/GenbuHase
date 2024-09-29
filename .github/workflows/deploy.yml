@@ -5,7 +5,7 @@ on:
   
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build-and-deploy:
@@ -18,7 +18,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.2.0
         with:
-          ref: main
+          ref: master
       - name: Setup Node
         uses: actions/setup-node@v4.0.4
         with:
