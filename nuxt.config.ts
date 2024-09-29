@@ -5,6 +5,10 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts'],
   devtools: { enabled: true },
 
+  app: {
+    baseURL: "/GenbuHase"
+  },
+
   googleFonts: {
     families: {
       "Material+Symbols+Outlined": true,
