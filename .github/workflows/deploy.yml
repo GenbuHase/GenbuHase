@@ -39,12 +39,12 @@ jobs:
           echo $REPO
           echo ::set-output name=repo_name::$REPO
       - name: Build
-        run: npm run build
+        run: npm run generate
         env:
           PUBLIC_URL: /${{ steps.get-repo-name.outputs.repo_name }}
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4.0.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
+          publish_dir: ./.output/public/
           publish_branch: gh-pages
