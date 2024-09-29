@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <section :class='["hero", `hero-${currentHeroImage}`, "min-h-svh"]'>
+  <div class="bg-current">
+    <aside ref="hero" :class='["hero", `hero-${currentHeroImage}`, "min-h-svh"]'>
       <div class="hero-overlay opacity-80"></div>
       
       <div class="hero-content flex flex-col gap-y-10 md:absolute md:right-20 text-white">
@@ -30,12 +30,20 @@
           </a>
         </nav>
       </div>
-    </section>
+    </aside>
   </div>
 </template>
 
 <style lang="scss" scoped>
   .hero {
+    @apply transition-opacity;
+    @apply ease-out;
+    @apply duration-300;
+
+    &.changing {
+      opacity: 0;
+    }
+
     &-1 {
       background-image: url("~/assets/hero1.jpg");
       background-position: center center;
@@ -58,17 +66,21 @@
 
   const HEROIMAGE_MAX_SIZE = 3;
 
+  const hero = ref();
   const currentHeroImage = ref(1);
 
   function nextHeroImage () {
-    currentHeroImage.value >= HEROIMAGE_MAX_SIZE ? currentHeroImage.value = 1 : currentHeroImage.value++;
+    setTimeout(() => hero.value.classList.add("changing"));
+    setTimeout(() => currentHeroImage.value >= HEROIMAGE_MAX_SIZE ? currentHeroImage.value = 1 : currentHeroImage.value++, 500);
   }
 
   function prevHeroImage () {
-    currentHeroImage.value <= 1 ? currentHeroImage.value = HEROIMAGE_MAX_SIZE : currentHeroImage.value--;
+    setTimeout(() => hero.value.classList.add("changing"));
+    setTimeout(() => currentHeroImage.value <= 1 ? currentHeroImage.value = HEROIMAGE_MAX_SIZE : currentHeroImage.value--, 500);
   }
 
   function changeHeroImage (id: number) {
-    currentHeroImage.value = id;
+    setTimeout(() => hero.value.classList.add("changing"));
+    setTimeout(() => currentHeroImage.value = id, 500);
   }
 </script>
