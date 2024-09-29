@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "genbuhase-portfolio",
-  "version": "0.1.0.8",
+  "version": "0.1.0.9",
   "description": "GenbuHase's Portfolio",
   "author": "Genbu Hase (https://genbuhase.github.io/)",
   "main": "index.js",
@@ -15,6 +15,7 @@
   "dependencies": {
     "@nuxtjs/google-fonts": "^3.2.0",
     "nuxt": "^3.13.0",
+    "nuxt-gtag": "^3.0.1",
     "vue": "latest",
     "vue-router": "latest"
   },
