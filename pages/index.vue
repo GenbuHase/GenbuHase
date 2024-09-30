@@ -70,17 +70,17 @@
   const currentHeroImage = ref(1);
 
   function nextHeroImage () {
-    setTimeout(() => hero.value.classList.add("changing"));
+    hero.value.classList.add("changing");
     setTimeout(() => currentHeroImage.value >= HEROIMAGE_MAX_SIZE ? currentHeroImage.value = 1 : currentHeroImage.value++, 500);
   }
 
   function prevHeroImage () {
-    setTimeout(() => hero.value.classList.add("changing"));
+    hero.value.classList.add("changing");
     setTimeout(() => currentHeroImage.value <= 1 ? currentHeroImage.value = HEROIMAGE_MAX_SIZE : currentHeroImage.value--, 500);
   }
 
   function changeHeroImage (id: number) {
-    setTimeout(() => hero.value.classList.add("changing"));
+    hero.value.classList.add("changing");
     setTimeout(() => currentHeroImage.value = id, 500);
   }
 </script>
