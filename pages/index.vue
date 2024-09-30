@@ -1,15 +1,15 @@
 <template>
-  <main class="text-base-content bg-[#f4b3c2]">
+  <main>
     <aside ref="hero" :class='["hero", `hero-${currentHeroImage}`, "min-h-svh"]'>
       <div class="hero-overlay opacity-80"></div>
       
       <div class="hero-content flex flex-col gap-y-8 md:absolute md:right-20 text-white">
-        <div class="flex gap-x-4 text-3xl">
+        <div class="flex gap-x-4 text-2xl 2xs:text-3xl">
           <button @click="prevHeroImage">
             <span class="material-icons">keyboard_arrow_left</span>
           </button>
 
-          <h1 class="brand-name text-2xl">Genbu Hase</h1>
+          <h1 class="brand-name text-xl 2xs:text-2xl">Genbu Hase</h1>
 
           <button @click="nextHeroImage">
             <span class="material-icons">keyboard_arrow_right</span>
@@ -31,10 +31,6 @@
         </nav>
       </div>
     </aside>
-
-    <article id="profile" class="container p-8 min-h-svh">
-      <h1>Profile</h1>
-    </article>
   </main>
 </template>
 
@@ -50,17 +46,17 @@
 
     &-1 {
       background-image: url("~/assets/hero1.jpg");
-      background-position: center center;
+      background-position: center 57.5%;
     }
 
     &-2 {
       background-image: url("~/assets/hero2.jpg");
-      background-position: center 25%;
+      background-position: center 15%;
     }
 
     &-3 {
       background-image: url("~/assets/hero3.jpg");
-      background-position: center 25%;
+      background-position: center 17.5%;
     }
   }
 </style>
