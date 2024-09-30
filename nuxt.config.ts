@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-09-28',
 
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', "@nuxt/fonts", "@nuxt/icon", "nuxt-gtag"],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', "@nuxt/icon", "nuxt-gtag"],
   devtools: { enabled: true },
 
   app: {
