@@ -3,7 +3,7 @@
     <aside ref="hero" :class='["hero", `hero-${currentHeroImage}`, "min-h-svh"]'>
       <div class="hero-overlay opacity-80"></div>
       
-      <div class="hero-content flex flex-col gap-y-10 md:absolute md:right-20 text-white">
+      <div class="hero-content flex flex-col gap-y-8 md:absolute md:right-20 text-white">
         <div class="flex gap-x-4 text-3xl">
           <button @click="prevHeroImage">
             <span class="material-icons">keyboard_arrow_left</span>
