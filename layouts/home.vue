@@ -1,13 +1,11 @@
 <template>
   <section class="text-base-content bg-[#f4b3c2]">
     <Header />
-
+    
     <!-- https://github.com/nuxt/nuxt/issues/24632 -->
     <div>
       <slot />
     </div>
-
-    <Footer />
   </section>
 </template>
 

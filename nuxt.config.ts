@@ -14,6 +14,16 @@ export default defineNuxtConfig({
         { rel: "icon", href: "./favicon.ico" },
         { rel: "me", href: "https://twitter.com/GenbuHase/" },
       ]
+    },
+
+    pageTransition: {
+      name: "page",
+      mode: "out-in"
+    },
+
+    layoutTransition: {
+      name: "layout",
+      mode: "out-in"
     }
   },
 

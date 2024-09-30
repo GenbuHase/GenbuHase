@@ -13,6 +13,23 @@
     font-family: "Material Symbols Outlined";
   }
 
+  .page-enter-active,
+  .page-leave-active,
+  .layout-enter-active,
+  .layout-leave-active {
+    @apply transition;
+    @apply duration-300;
+  }
+
+  .page-enter-from,
+  .page-leave-to,
+  .layout-enter-from,
+  .layout-leave-to {
+    @apply blur-md;
+
+    opacity: 0;
+  }
+
   .brand-name {
     @apply font-extrabold;
     @apply uppercase;
