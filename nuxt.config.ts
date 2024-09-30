@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-09-28',
 
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', "nuxt-gtag"],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', "@nuxt/fonts", "@nuxt/icon", "nuxt-gtag"],
   devtools: { enabled: true },
 
   app: {
@@ -13,6 +13,9 @@ export default defineNuxtConfig({
         { rel: "canonical", href: "https://genbuhase.github.io/GenbuHase/" },
         { rel: "icon", href: "./favicon.ico" },
         { rel: "me", href: "https://twitter.com/GenbuHase/" },
+
+        { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/yakuhanjp@4.1.1/dist/css/yakuhanjp.css" },
+        { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/yakuhanjp@4.1.1/dist/css/yakuhanrp.css" }
       ]
     },
 
@@ -29,8 +32,8 @@ export default defineNuxtConfig({
 
   googleFonts: {
     families: {
-      "Material+Symbols+Outlined": true,
-      "Zen+Maru+Gothic": true
+      "Zen+Maru+Gothic": true,
+      "Material+Symbols+Outlined": true
     }
   },
 

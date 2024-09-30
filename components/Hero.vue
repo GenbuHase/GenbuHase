@@ -5,13 +5,13 @@
     <div class="hero-content flex flex-col gap-y-8 md:absolute md:right-20 text-white">
       <div class="flex gap-x-4 text-2xl 2xs:text-3xl">
         <button @click="prevHeroImage">
-          <span class="material-icons">keyboard_arrow_left</span>
+          <Icon name="material-symbols:keyboard-arrow-left" />
         </button>
 
-        <h1 class="brand-name text-xl 2xs:text-2xl">Genbu Hase</h1>
+        <h1 class="brand-name -mr-2 text-xl 2xs:text-2xl">Genbu Hase</h1>
 
         <button @click="nextHeroImage">
-          <span class="material-icons">keyboard_arrow_right</span>
+          <Icon name="material-symbols:keyboard-arrow-right" />
         </button>
       </div>
       

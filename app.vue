@@ -6,7 +6,7 @@
 
 <style lang="scss">
   :root {
-    font-family: "Zen Maru Gothic";
+    font-family: YakuhanRP, "Zen Maru Gothic";
   }
 
   .material-icons {
@@ -28,6 +28,18 @@
     @apply blur-md;
 
     opacity: 0;
+  }
+
+  @for $i from 1 through 6 {
+    .prose h#{$i} {
+      @apply flex;
+      @apply items-center;
+      @apply gap-3;
+
+      > .iconify {
+        font-size: 1.25em;
+      }
+    }
   }
 
   .brand-name {

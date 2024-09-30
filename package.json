@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "genbuhase-portfolio",
-  "version": "0.1.0.14",
+  "version": "0.1.0.15",
   "description": "GenbuHase's Portfolio",
   "author": "Genbu Hase (https://genbuhase.github.io/)",
   "main": "index.js",
@@ -13,11 +13,14 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/fonts": "^0.9.2",
+    "@nuxt/icon": "^1.5.2",
     "@nuxtjs/google-fonts": "^3.2.0",
     "nuxt": "^3.13.0",
     "nuxt-gtag": "^3.0.1",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "latest",
+    "yakuhanjp": "^4.1.1"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.12.1",
