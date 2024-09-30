@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-current">
+  <main class="text-base-content bg-[#f4b3c2]">
     <aside ref="hero" :class='["hero", `hero-${currentHeroImage}`, "min-h-svh"]'>
       <div class="hero-overlay opacity-80"></div>
       
@@ -16,7 +16,7 @@
           </button>
         </div>
         
-        <nav class="grid grid-flow-col gap-5">
+        <nav class="grid grid-flow-col gap-6">
           <a href="https://github.com/GenbuHase" target="_blank">
             <img src="~/assets/icons/github-outlined.svg" />
           </a>
@@ -31,7 +31,11 @@
         </nav>
       </div>
     </aside>
-  </div>
+
+    <article id="profile" class="container p-8 min-h-svh">
+      <h1>Profile</h1>
+    </article>
+  </main>
 </template>
 
 <style lang="scss" scoped>
