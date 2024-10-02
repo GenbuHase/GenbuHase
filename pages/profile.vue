@@ -1,8 +1,8 @@
 <template>
   <main class="flex place-content-center pt-[96px] lg:pt-[72px]">
-    <article id="profile" class="prose max-w-3xl p-12">
+    <article class="prose max-w-3xl p-12 sm:p-10">
       <h1>
-        <Icon name="mdi:person-outline" />
+        <Icon class="-ml-2" name="mdi:person-outline" />
         Profile
       </h1>
 
@@ -19,9 +19,9 @@
         </h2>
 
         <section>
-          <img alt="My GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=GenbuHase&show_icons=true" />
+          <img alt="My GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=GenbuHase&show_icons=true&include_all_commits=true" />
           <img alt="My Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GenbuHase&layout=donut" />
-          <img alt="My GitHub Trophy" src="https://github-profile-trophy.vercel.app/?username=GenbuHase&theme=flat&margin-w=4&margin-h=4&column=7" />
+          <img alt="My GitHub Trophy" src="https://github-profile-trophy.vercel.app/?username=GenbuHase&theme=flat&margin-w=8&margin-h=8&column=5" />
         </section>
 
         <section>

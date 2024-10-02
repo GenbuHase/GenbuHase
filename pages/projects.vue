@@ -1,6 +1,6 @@
 <template>
-  <main class="pt-[96px] lg:pt-[72px]">
-    <article id="projects" class="prose max-w-none p-10">
+  <main class="flex place-content-center pt-[96px] lg:pt-[72px]">
+    <article class="prose max-w-3xl p-12 sm:p-10">
       <h1>Projects</h1>
 
       <p>
