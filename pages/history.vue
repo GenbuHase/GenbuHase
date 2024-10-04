@@ -336,4 +336,7 @@
 </style>
 
 <script setup lang="ts">
+  definePageMeta({
+    title: "History"
+  });
 </script>

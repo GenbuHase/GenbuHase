@@ -52,22 +52,32 @@
 </style>
 
 <script setup lang="ts">
+  const route = useRoute();
+
   useSeoMeta({
     charset: "UTF-8",
     viewport: "width=device-width, initial-scale=1",
 
-    title: "長谷 玄武 (Genbu Hase)",
+    title: "",
     author: "長谷 玄武 (Genbu Hase)",
     description: "Web Developer",
     keywords: "長谷 玄武, Genbu Hase, ポートフォリオ, Portfolio",
 
     ogType: "website",
     ogSiteName: "長谷 玄武 (Genbu Hase)",
-    ogTitle: "長谷 玄武 (Genbu Hase)",
+    ogTitle: "",
     ogDescription: "Web Developer",
     ogUrl: "https://genbuhase.github.io/GenbuHase/",
     ogImage: "https://genbuhase.github.io/GenbuHase/hero1.jpg",
     twitterCard: "summary_large_image",
     twitterSite: "@GenbuHase"
-  })
+  });
+
+  useHead({
+    title: () => route.meta.title ? `${route.meta.title}｜長谷 玄武 (Genbu Hase)` : "長谷 玄武 (Genbu Hase)",
+
+    meta: [
+      { property: "og:title", content: route.meta.title ? `${route.meta.title}｜長谷 玄武 (Genbu Hase)` : "長谷 玄武 (Genbu Hase)" }
+    ]
+  });
 </script>
