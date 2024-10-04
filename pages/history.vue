@@ -315,7 +315,7 @@
 
 <style lang="scss" scoped>
   .table {
-    tbody tr > td {
+    tbody > tr > td {
       @apply align-middle;
 
       &:first-child {

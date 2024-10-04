@@ -8,7 +8,11 @@ export default {
   theme: {
     extend: {
       screens: {
-        "2xs": "360px"
+        "xs": "576px",
+        "2xs": "360px",
+        "ml": "425px",
+        "mm": "375px",
+        "ms": "320px"
       }
     },
   },

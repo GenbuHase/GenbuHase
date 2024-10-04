@@ -6,7 +6,7 @@
 
 <style lang="scss">
   :root {
-    font-family: YakuhanRP, "Zen Maru Gothic";
+    font-family: "Zen Maru Gothic";
   }
 
   .material-icons {
