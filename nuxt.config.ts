@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-09-28',
+  compatibilityDate: '2024-10-05',
 
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', "@nuxt/icon", "nuxt-gtag"],
   devtools: { enabled: true },
@@ -9,6 +9,10 @@ export default defineNuxtConfig({
     baseURL: "/GenbuHase",
 
     head: {
+      htmlAttrs: {
+        lang: "ja"
+      },
+
       link: [
         { rel: "canonical", href: "https://genbuhase.github.io/GenbuHase/" },
         { rel: "icon", href: "./favicon.ico" },

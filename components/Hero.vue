@@ -4,28 +4,28 @@
     
     <div class="hero-content flex flex-col gap-y-8 md:absolute md:right-20 text-white">
       <div class="flex gap-x-4 text-2xl 2xs:text-3xl">
-        <button @click="prevHeroImage">
+        <button @click="prevHeroImage" aria-label="A Previous Button for Hero Image">
           <Icon name="material-symbols:keyboard-arrow-left" />
         </button>
 
         <h1 class="brand-name -mr-2 text-xl 2xs:text-2xl">Genbu Hase</h1>
 
-        <button @click="nextHeroImage">
+        <button @click="nextHeroImage" aria-label="A Next Button for Hero Image">
           <Icon name="material-symbols:keyboard-arrow-right" />
         </button>
       </div>
       
       <nav class="grid grid-flow-col gap-6">
-        <a href="https://github.com/GenbuHase" target="_blank">
-          <img src="~/assets/icons/github-outlined.svg" />
+        <a href="https://github.com/GenbuHase" target="_blank" aria-label="A Link for My GitHub">
+          <img alt="GitHub Icon" src="~/assets/icons/github-outlined.svg" />
         </a>
 
-        <a href="https://twitter.com/GenbuHase" target="_blank">
-          <img src="~/assets/icons/twitter-outlined.svg" />
+        <a href="https://twitter.com/GenbuHase" target="_blank" aria-label="A Link for My Twitter">
+          <img alt="Twitter Icon" src="~/assets/icons/twitter-outlined.svg" />
         </a>
 
-        <a href="https://www.instagram.com/genbuhase/" target="_blank">
-          <img src="~/assets/icons/instagram-outlined.svg" />
+        <a href="https://www.instagram.com/genbuhase/" target="_blank" aria-label="A Link for My Instagram">
+          <img alt="Instagram Icon" src="~/assets/icons/instagram-outlined.svg" />
         </a>
       </nav>
     </div>

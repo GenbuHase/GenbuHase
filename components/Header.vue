@@ -6,14 +6,14 @@
       <div class="drawer-content flex flex-col">
         <nav class="navbar p-6 lg:px-8">
           <div class="flex-1">
-            <NuxtLink to="/" class="brand-name -m-1.5 p-1.5">Genbu Hase</NuxtLink>
+            <NuxtLink to="/" class="brand-name -m-1.5 p-1.5" aria-label="A Link for Top-Page">Genbu Hase</NuxtLink>
           </div>
 
           <div class="hidden lg:flex lg:gap-x-20">
-            <NuxtLink to="/" class="font-bold">Home</NuxtLink>
-            <NuxtLink to="/profile" class="font-bold">Profile</NuxtLink>
-            <NuxtLink to="/history" class="font-bold">History</NuxtLink>
-            <NuxtLink to="/projects" class="font-bold">Projects</NuxtLink>
+            <NuxtLink to="/" class="font-bold" aria-label="A Link for Top-Page">Home</NuxtLink>
+            <NuxtLink to="/profile" class="font-bold" aria-label="A Link for Profile-Page">Profile</NuxtLink>
+            <NuxtLink to="/history" class="font-bold" aria-label="A Link for History-Page">History</NuxtLink>
+            <NuxtLink to="/projects" class="font-bold" aria-label="A Link for Projects-Page">Projects</NuxtLink>
           </div>
 
           <div class="flex-none lg:hidden">
@@ -41,10 +41,10 @@
           </div>
 
           <div class="mt-6">
-            <li><NuxtLink class="text-base font-bold" to="/" @click="closeSidebar">Home</NuxtLink></li>
-            <li><NuxtLink class="text-base font-bold" to="/profile" @click="closeSidebar">Profile</NuxtLink></li>
-            <li><NuxtLink class="text-base font-bold" to="/history" @click="closeSidebar">History</NuxtLink></li>
-            <li><NuxtLink class="text-base font-bold" to="/projects" @click="closeSidebar">Projects</NuxtLink></li>
+            <li><NuxtLink class="text-base font-bold" to="/" @click="closeSidebar" aria-label="A Link for Top-Page">Home</NuxtLink></li>
+            <li><NuxtLink class="text-base font-bold" to="/profile" @click="closeSidebar" aria-label="A Link for Profile-Page">Profile</NuxtLink></li>
+            <li><NuxtLink class="text-base font-bold" to="/history" @click="closeSidebar" aria-label="A Link for History-Page">History</NuxtLink></li>
+            <li><NuxtLink class="text-base font-bold" to="/projects" @click="closeSidebar" aria-label="A Link for Projects-Page">Projects</NuxtLink></li>
           </div>
         </ul>
       </div>
