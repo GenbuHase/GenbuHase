@@ -329,6 +329,7 @@
 
       a {
         @apply text-sky-700;
+        @apply break-all;
       }
     }
   }
