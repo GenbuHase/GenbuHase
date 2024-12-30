@@ -205,7 +205,7 @@
               <td>2023/05/30</td>
 
               <td>
-                埼玉大学手話サークル ゆびつむぎ 創設者として、埼玉大学『SAIDAI CONCIERGE』にインタビューの様子が掲載されました。
+                埼玉大学手話サークル ゆびつむぎ 創設者として、埼玉大学広報誌『SAIDAI CONCIERGE』にインタビューの様子が掲載されました。
 
                 <blockquote>
                   ようこそ！ 日常に彩りを与えてくれる手話の世界へ - SAIDAI CONCIERGE<br>
@@ -233,6 +233,32 @@
                 <blockquote>
                   埼玉大学オープンキャンパス2023へご来場いただき、ありがとうございました<br>
                   <a href="https://www.saitama-u.ac.jp/exam_archives/2023/2023-0824-1121-9.html" target="_blank">https://www.saitama-u.ac.jp/exam_archives/2023/2023-0824-1121-9.html</a>
+                </blockquote>
+              </td>
+            </tr>
+
+            <tr>
+              <td>2023/10/18</td>
+
+              <td>
+                埼大学生広報サポーターとして、埼大学生広報サポーター公式noteに株式会社未来屋書店 北浦和店との地域連携事業「絵本よみきかせ会」の様子が掲載されました。
+
+                <blockquote>
+                  未来屋書店北浦和店連携イベント「絵本よみきかせ会」｜埼大学生広報サポーター<br>
+                  <a href="https://note.com/saidai_pr/n/n28c506dae3a3" target="_blank">https://note.com/saidai_pr/n/n28c506dae3a3</a>
+                </blockquote>
+              </td>
+            </tr>
+
+            <tr>
+              <td>2023/10/25</td>
+
+              <td>
+                埼大学生広報サポーターとして、埼大学生広報サポーター公式noteに株式会社未来屋書店 与野店との地域連携事業「絵本よみきかせ会」の様子が掲載されました。
+
+                <blockquote>
+                  未来屋書店与野店連携イベント「絵本よみきかせ会」｜埼大学生広報サポーター<br>
+                  <a href="https://note.com/saidai_pr/n/nd87eed6f382d" target="_blank">https://note.com/saidai_pr/n/nd87eed6f382d</a>
                 </blockquote>
               </td>
             </tr>
@@ -306,6 +332,24 @@
                 </blockquote>
               </td>
             </tr>
+
+            <tr>
+              <td>2024/12/10</td>
+
+              <td>
+                埼大学生広報サポーターとして、埼玉大学広報誌『SAIDAI CONCIERGE』にインタビューの様子が掲載されました。
+
+                <blockquote>
+                  地域と交流しながら埼大の魅力を伝えたい！ - SAIDAI CONCIERGE<br>
+                  <a href="https://www.saitama-u.ac.jp/entrance/scweb/column/column02/3008/" target="_blank">https://www.saitama-u.ac.jp/entrance/scweb/column/column02/3008/</a>
+                </blockquote>
+
+                <blockquote>
+                  ＊新着情報＊受験生向けオンラインマガジン「SAIDAI CONCIERGE」 | 埼玉大学<br>
+                  <a href="https://www.saitama-u.ac.jp/exam_archives/202412101000.html" target="_blank">https://www.saitama-u.ac.jp/exam_archives/202412101000.html</a>
+                </blockquote>
+              </td>
+            </tr>
           </tbody>
         </table>
       </section>
@@ -319,10 +363,12 @@
       @apply align-middle;
 
       &:first-child {
+        @apply align-top;
         @apply text-center;
       }
 
       blockquote, a {
+        @apply my-3;
         @apply text-sm;
         @apply not-italic;
       }
