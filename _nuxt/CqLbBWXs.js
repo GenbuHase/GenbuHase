@@ -1,0 +1,1 @@
+import{_ as t}from"./BO7D2APO.js";import{_ as s}from"./DlAUqK2U.js";import{c,o as a,b as r,a as n,s as _}from"./Bg3ylBqc.js";import"./CYYfVBis.js";const m={},f={class:"text-base-content bg-[#f4b3c2]"};function d(e,i){const o=t;return a(),c("section",f,[r(o),n("div",null,[_(e.$slots,"default")])])}const h=s(m,[["render",d]]);export{h as default};
