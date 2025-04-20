@@ -16,15 +16,15 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.2.0
+        uses: actions/checkout@v4.2.2
         with:
           ref: master
       - name: Setup Node
-        uses: actions/setup-node@v4.0.4
+        uses: actions/setup-node@v4.4.0
         with:
-          node-version: 16
+          node-version: 23
       - name: Cache deps
-        uses: actions/cache@v4.0.2
+        uses: actions/cache@v4.2.3
         with:
           path: ~/.npm
           key: ${{ runner.os }}-npm-${{ hashFiles('./package-lock.json') }}
