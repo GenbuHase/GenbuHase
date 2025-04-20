@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "@genbuhase/portfolio",
-  "version": "1.0.3.2",
+  "version": "1.0.4",
   "description": "GenbuHase's Portfolio",
   "author": "Genbu Hase (https://genbuhase.github.io/)",
   "main": "index.js",
