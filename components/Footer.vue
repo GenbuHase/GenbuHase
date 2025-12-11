@@ -2,7 +2,7 @@
   <footer class="footer px-10 py-4 bg-base-200 text-base-content border-base-300 border-t">
     <aside class="grid-flow-col items-center">
       <p>
-        Copyright &copy; 2024 <NuxtLink class="link" to="/" aria-label="A Link for Top-Page">長谷 玄武 (Genbu Hase)</NuxtLink><br>
+        Copyright &copy; 2024-2026 <NuxtLink class="link" to="/" aria-label="A Link for Top-Page">長谷 玄武 (Genbu Hase)</NuxtLink><br>
         All Rights Reserved.
       </p>
     </aside>

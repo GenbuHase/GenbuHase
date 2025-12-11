@@ -19,7 +19,7 @@
       </p>
 
       <p>
-        現在ではITエンジニアとして、都内の某IT企業に従事している。
+        現在ではWebエンジニアとして、都内の某IT企業に従事している。
       </p>
 
       <section>
@@ -29,7 +29,7 @@
         </h2>
 
         <ul>
-          <li>ITエンジニア(＠都内某IT企業)</li>
+          <li>Webエンジニア(＠都内某IT企業)</li>
           <li>埼玉大学手話サークル ゆびつむぎ 創設者／第1期・第2期代表(2021～2023)／第3期広報部長(2023～2024)</li>
           <li>埼玉大学メイド部 創設者／第1期代表(2024～2025)</li>
           <li>埼玉大学総務部 広報渉外課 第1期～第3期 埼大学生広報サポーター(2022～2025)</li>
@@ -127,6 +127,11 @@
               <td>2025/03</td>
               <td>幼稚園教諭二種免許状を取得</td>
             </tr>
+
+            <tr>
+              <td>2025/11</td>
+              <td>生成AI活用普及協会(GUGA) 生成AIパスポート資格を取得</td>
+            </tr>
           </tbody>
         </table>
       </section>
@@ -145,8 +150,8 @@
 
           <ul>
             <li><a href="https://twitter.com/GenbuHase" target="_blank">長谷 玄武 / Genbu Hase (@GenbuHase)</a></li>
-            <li><a href="https://twitter.com/GenInAnywhere" target="_blank">どっかのげんちゃん。 (@GenInAnywhere)</a></li>
             <li><a href="https://twitter.com/SU_Mentsuyu" target="_blank">めんつゆ。 (@SU_Mentsuyu)</a></li>
+            <li><a href="https://twitter.com/GenInAnywhere" target="_blank">どっかのげんちゃん。 (@GenInAnywhere)</a></li>
           </ul>
         </section>
 
