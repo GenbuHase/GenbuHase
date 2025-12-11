@@ -1,6 +1,6 @@
 <template>
-  <section class="text-base-content bg-[#f4b3c2]">
-    <Header />
+  <section class="text-base-content bg-[#f4b3c2] dark:bg-base-300">
+    <Header class="text-white" />
     
     <!-- https://github.com/nuxt/nuxt/issues/24632 -->
     <div>

@@ -1,5 +1,5 @@
 <template>
-  <header class="fixed inset-x-0 top-0 z-50 text-white">
+  <header class="fixed inset-x-0 top-0 z-50 text-gray-900 dark:text-white">
     <div class="drawer drawer-end">
       <input ref="sidebarStatus" id="sidebar-status" class="drawer-toggle" type="checkbox" />
 
@@ -16,8 +16,10 @@
             <NuxtLink to="/projects" class="font-bold" aria-label="A Link for Projects-Page">Projects</NuxtLink>
           </div>
 
-          <div class="flex-none lg:hidden">
-            <label class="btn btn-square btn-ghost" for="sidebar-status" aria-label="Open Sidebar">
+          <ThemeToggle class="lg:ml-10" />
+
+          <div class="flex-none ml-4 lg:hidden">
+            <label class="btn btn-ghost btn-circle" for="sidebar-status" aria-label="Open Sidebar">
               <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
               </svg>
@@ -29,7 +31,7 @@
       <div class="drawer-side text-base-content">
         <label class="drawer-overlay" for="sidebar-status" aria-label="Close Sidebar" />
 
-        <ul class="menu menu-lg w-full sm:max-w-sm min-h-full p-6 bg-white sm:ring-1 sm:ring-gray-900/10">
+        <ul class="menu menu-lg w-full sm:max-w-sm min-h-full p-6 bg-base-100 sm:ring-1 sm:ring-gray-900/10">
           <div class="flex items-center justify-between">
             <div />
 

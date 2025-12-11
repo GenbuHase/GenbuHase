@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "@genbuhase/portfolio",
-  "version": "1.0.4.2",
+  "version": "1.1.0",
   "description": "GenbuHase's Portfolio",
   "author": "Genbu Hase (https://genbuhase.github.io/)",
   "main": "index.js",
@@ -22,6 +22,7 @@
     "yakuhanjp": "^4.1.1"
   },
   "devDependencies": {
+    "@nuxtjs/color-mode": "^4.0.0",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@tailwindcss/typography": "^0.5.15",
     "daisyui": "^4.12.10",

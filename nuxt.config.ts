@@ -2,7 +2,14 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-10-05',
 
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', "@nuxt/icon", "nuxt-gtag"],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    "@nuxtjs/color-mode",
+    '@nuxtjs/google-fonts',
+    "@nuxt/icon",
+    "nuxt-gtag"
+  ],
+
   devtools: { enabled: true },
 
   app: {
@@ -32,6 +39,13 @@ export default defineNuxtConfig({
       name: "layout",
       mode: "out-in"
     }
+  },
+
+  colorMode: {
+    preference: 'system',
+    fallback: 'light',
+    dataValue: 'theme',
+    classSuffix: ''
   },
 
   googleFonts: {
