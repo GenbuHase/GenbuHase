@@ -28,16 +28,31 @@
           Roles
         </h2>
 
-        <ul>
-          <li>Webエンジニア(＠都内某IT企業)</li>
-          <li>埼玉大学手話サークル ゆびつむぎ 創設者／第1期・第2期代表(2021～2023)／第3期広報部長(2023～2024)</li>
-          <li>埼玉大学メイド部 創設者／第1期代表(2024～2025)</li>
-          <li>埼玉大学総務部 広報渉外課 第1期～第3期 埼大学生広報サポーター(2022～2025)</li>
-          <li>埼玉大学教育機構 障がい学生支援室 第1期 障がい学生サポーター(2024～2025)</li>
-          <li>埼玉大学教育機構 障がい学生支援室 第1期 パソコンノートテイカー(2024～2025)</li>
-          <li>Saidai Contest 2023 準グランプリ(2023)</li>
-          <li>MR OF MR CAMPUS CONTEST 2024 ファイナリスト(2024)</li>
-        </ul>
+        <section>
+          <h3>Currently</h3>
+
+          <ul>
+            <li>Webエンジニア(@都内某IT企業) (2025～)</li>
+            <li>東京学芸大学Explayground 防災教育ラボ メンバー (2022～)</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Formerly</h3>
+
+          <ul>
+            <li>埼玉大学教育機構 障がい学生支援室 第1期 障がい学生サポーター (2024～2025)</li>
+            <li>埼玉大学教育機構 障がい学生支援室 第1期 パソコンノートテイカー (2024～2025)</li>
+            <li>MR OF MR CAMPUS CONTEST 2024 ファイナリスト (2024)</li>
+            <li>埼玉大学メイド部 第1期代表 (2024～2025)</li>
+            <li>埼玉大学メイド部 創設者 (2024)</li>
+            <li>Saidai Contest 2023 準グランプリ (2023)</li>
+            <li>埼玉大学手話サークル ゆびつむぎ 第3期広報部長 (2023～2024)</li>
+            <li>埼玉大学総務部 広報渉外課 第1期～第3期 埼大学生広報サポーター (2022～2025)</li>
+            <li>埼玉大学手話サークル ゆびつむぎ 第1期・第2期代表 (2021～2023)</li>
+            <li>埼玉大学手話サークル ゆびつむぎ 創設者 (2021)</li>
+          </ul>
+        </section>
       </section>
 
       <section>
@@ -46,20 +61,32 @@
           Skills
         </h2>
 
+        <!--
         <section>
           <img alt="My GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=GenbuHase&show_icons=true&include_all_commits=true" />
           <img alt="My Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GenbuHase&layout=donut" />
           <img alt="My GitHub Trophy" src="https://github-profile-trophy.vercel.app/?username=GenbuHase&theme=flat&margin-w=8&margin-h=8&column=5" />
         </section>
+        -->
 
         <section>
-          <h3>Primary</h3>
-          <img src="https://skillicons.dev/icons?theme=dark&perline=10&i=html,css,sass,js,ts,nodejs,npm,deno,vue,nuxtjs,vuetify,react,redux,nextjs,jquery,express,tailwind,gulp,firebase,regex,vercel,heroku" />
+          <h3>Languages</h3>
+          <img alt="My Language Skills" src="https://skillicons.dev/icons?theme=dark&perline=10&i=html,js,ts,css,sass,java,c,cs,cpp,py,bash,php,regex,md" />
         </section>
 
         <section>
-          <h3>Secondary</h3>
-          <img src="https://skillicons.dev/icons?theme=dark&perline=10&i=java,c,cs,cpp,py,bash,php,pug,p5js,threejs,webpack,mongodb,netlify,figma" />
+          <h3>Frameworks and Libraries</h3>
+          <img alt="My Framework and Library Skills" src="https://skillicons.dev/icons?theme=dark&perline=10&i=vue,nuxtjs,react,redux,nextjs,spring,maven,webpack,pug,jquery,express,gulp,p5js,threejs,tailwind,vuetify" />
+        </section>
+
+        <section>
+          <h3>Platforms</h3>
+          <img alt="My Platform Skills" src="https://skillicons.dev/icons?theme=dark&perline=10&i=nodejs,deno,npm,vercel,netlify,heroku,jenkins,firebase,mongodb" />
+        </section>
+
+        <section>
+          <h3>Services</h3>
+          <img alt="My Service Skills" src="https://skillicons.dev/icons?theme=dark&perline=10&i=git,github,gitlab,bitbucket,figma,postman,notion,windows,linux,vscode,visualstudio,eclipse,mastodon,misskey,fediverse,twitter,instagram,discord" />
         </section>
       </section>
 
