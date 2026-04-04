@@ -4,7 +4,7 @@
       <input ref="sidebarStatus" id="sidebar-status" class="drawer-toggle" type="checkbox" />
 
       <div class="drawer-content flex flex-col">
-        <nav class="navbar p-6 lg:px-8">
+        <nav class="navbar pl-4 py-2 lg:pl-8">
           <div class="flex-1">
             <NuxtLink to="/" class="brand-name -m-1.5 p-1.5" aria-label="A Link for Top-Page">Genbu Hase</NuxtLink>
           </div>
