@@ -238,7 +238,7 @@
       </section>
 
       <section>
-        <h2>
+        <h2 id="media-listing">
           <Icon name="material-symbols:perm-media-outline" />
           Media Listing
         </h2>
@@ -429,6 +429,19 @@
             </tr>
 
             <tr>
+              <td>2024/11/15</td>
+
+              <td>
+                埼大学生広報サポーターとして、埼玉大学公式ホームページに南高通り商店会・浦和六辻商店会との地域連携事業「第14回青空ふりーまーけっと」の様子が掲載されました。
+
+                <blockquote>
+                  地域の魅力を再発見！地域活性化イベントに埼大学生広報サポーターが協力しました！ | 埼玉大学<br>
+                  <a href="https://www.saitama-u.ac.jp/news_archives/202411151500.html" target="_blank">https://www.saitama-u.ac.jp/news_archives/202411151500.html</a>
+                </blockquote>
+              </td>
+            </tr>
+
+            <tr>
               <td>2024/12/10</td>
 
               <td>
@@ -442,6 +455,86 @@
                 <blockquote>
                   ＊新着情報＊受験生向けオンラインマガジン「SAIDAI CONCIERGE」 | 埼玉大学<br>
                   <a href="https://www.saitama-u.ac.jp/exam_archives/202412101000.html" target="_blank">https://www.saitama-u.ac.jp/exam_archives/202412101000.html</a>
+                </blockquote>
+              </td>
+            </tr>
+
+            <tr>
+              <td>2024/12/13</td>
+
+              <td>
+                埼大学生広報サポーターとして、埼玉大学公式ホームページにさいたま市との地域連携事業の様子が掲載されました。
+
+                <blockquote>
+                  埼大学生広報サポーターが桜区PRポスターを企画・制作しました | 埼玉大学<br>
+                  <a href="https://www.saitama-u.ac.jp/news_archives/202501091100.html" target="_blank">https://www.saitama-u.ac.jp/news_archives/202501091100.html</a>
+                </blockquote>
+
+                <blockquote>
+                  さいたま市／（令和6年12月13日発表）埼玉大学の学生と協働で、桜区PRポスターを企画・製作しました<br>
+                  <a href="https://www.city.saitama.lg.jp/006/014/008/003/013/009/p118077.html" target="_blank">https://www.city.saitama.lg.jp/006/014/008/003/013/009/p118077.html</a>
+                </blockquote>
+
+                <blockquote>
+                  さいたま市／埼玉大学の学生と協働で桜区PRポスターを企画・制作しました<br>
+                  <a href="https://www.city.saitama.lg.jp/006/014/021/001/p118812.html" target="_blank">https://www.city.saitama.lg.jp/006/014/021/001/p118812.html</a>
+                </blockquote>
+
+                <blockquote>
+                  さいたま市／桜区の魅力再発見展 #わくわく、さくらく。を開催しました<br>
+                  <a href="https://www.city.saitama.lg.jp/sakura/001/001/006/p118964.html" target="_blank">https://www.city.saitama.lg.jp/sakura/001/001/006/p118964.html</a>
+                </blockquote>
+              </td>
+            </tr>
+
+            <tr>
+              <td>2025/01/07</td>
+
+              <td>
+                埼大学生広報サポーターとして、埼玉大学公式ホームページにそごう大宮店との地域連携事業「～埼大学生広報サポーターPresents～みんな集まれ！親子でわくわくクリスマスイベント2024」の様子が掲載されました。
+
+                <blockquote>
+                  埼大学生広報サポーターがそごう大宮店と連携してクリスマスイベントを開催しました | 埼玉大学<br>
+                  <a href="https://www.saitama-u.ac.jp/news_archives/202501071600.html" target="_blank">https://www.saitama-u.ac.jp/news_archives/202501071600.html</a>
+                </blockquote>
+              </td>
+            </tr>
+
+            <tr>
+              <td>2025/01/29</td>
+
+              <td>
+                埼玉大学生として、埼玉大学公式ホームページに坂井学長と学生とのディスカッションの様子が掲載されました。
+
+                <blockquote>
+                  学生と学長とのディスカッションが開催されました～応募学生が最多～ | 埼玉大学<br>
+                  <a href="https://www.saitama-u.ac.jp/news_archives/202501290930.html" target="_blank">https://www.saitama-u.ac.jp/news_archives/202501290930.html</a>
+                </blockquote>
+              </td>
+            </tr>
+
+            <tr>
+              <td>2025/02/21</td>
+
+              <td>
+                埼大学生広報サポーターとして、埼玉大学公式ホームページに株式会社未来屋書店 与野店との地域連携事業「出張!!絵本よみきかせ会」「ワークショップ!!絵本・しおりを作ろう！」の様子が掲載されました。
+
+                <blockquote>
+                  埼玉大学×未来屋書店「出張!!絵本よみきかせ会」「ワークショップ!!絵本・しおりを作ろう！」を開催しました！ | 埼玉大学<br>
+                  <a href="https://www.saitama-u.ac.jp/news_archives/202502211000.html" target="_blank">https://www.saitama-u.ac.jp/news_archives/202502211000.html</a>
+                </blockquote>
+              </td>
+            </tr>
+
+            <tr>
+              <td>2025/12/16</td>
+
+              <td>
+                埼大学生広報サポーターOBとして、埼玉大学公式ホームページにそごう大宮店との地域連携事業で撮影した写真が掲載されました。
+
+                <blockquote>
+                  埼玉大学がそごう大宮店と連携して2DAYSイベントを開催しました | 埼玉大学<br>
+                  <a href="https://www.saitama-u.ac.jp/news_archives/202512161100.html" target="_blank">https://www.saitama-u.ac.jp/news_archives/202512161100.html</a>
                 </blockquote>
               </td>
             </tr>
