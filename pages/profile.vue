@@ -2,7 +2,7 @@
   <main class="flex place-content-center pt-[96px] lg:pt-[72px]">
     <article class="prose max-w-3xl p-12 sm:p-10">
       <h1>
-        <Icon class="-ml-2" name="mdi:person-outline" />
+        <Icon name="mdi:person-outline" />
         Profile
       </h1>
 

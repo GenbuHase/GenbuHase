@@ -1,5 +1,5 @@
 <template>
-  <header class="fixed inset-x-0 top-0 z-50 text-gray-900 dark:text-white">
+  <header class="header fixed inset-x-0 top-0 z-50">
     <div class="drawer drawer-end">
       <input ref="sidebarStatus" id="sidebar-status" class="drawer-toggle" type="checkbox" />
 
