@@ -71,22 +71,34 @@
 
         <section>
           <h3>Languages</h3>
-          <img alt="My Language Skills" src="https://skillicons.dev/icons?theme=dark&perline=10&i=html,js,ts,css,sass,java,c,cs,cpp,py,bash,php,regex,md" />
+
+          <img
+            alt="HTML, JavaScript, TypeScript, CSS, Sass, Java, C, C#, C++, Python, Bash, PHP, Regular Expressions, Markdown"
+            src="https://skillicons.dev/icons?theme=dark&perline=10&i=html,js,ts,css,sass,java,c,cs,cpp,py,bash,php,regex,md" />
         </section>
 
         <section>
           <h3>Frameworks and Libraries</h3>
-          <img alt="My Framework and Library Skills" src="https://skillicons.dev/icons?theme=dark&perline=10&i=vue,nuxtjs,react,redux,nextjs,spring,maven,webpack,pug,jquery,express,gulp,p5js,threejs,tailwind,vuetify" />
+
+          <img
+            alt="Vue.js, Nuxt.js, React, Redux, Next.js, Spring, Maven, Webpack, Pug, jQuery, Express, Gulp, p5.js, Three.js, Tailwind CSS, Vuetify"
+            src="https://skillicons.dev/icons?theme=dark&perline=10&i=vue,nuxtjs,react,redux,nextjs,spring,maven,webpack,pug,jquery,express,gulp,p5js,threejs,tailwind,vuetify" />
         </section>
 
         <section>
           <h3>Platforms</h3>
-          <img alt="My Platform Skills" src="https://skillicons.dev/icons?theme=dark&perline=10&i=nodejs,deno,npm,vercel,netlify,heroku,jenkins,firebase,mongodb" />
+
+          <img
+            alt="Node.js, Deno, npm, Vercel, Netlify, Heroku, Jenkins, Firebase, MongoDB"
+            src="https://skillicons.dev/icons?theme=dark&perline=10&i=nodejs,deno,npm,vercel,netlify,heroku,jenkins,firebase,mongodb" />
         </section>
 
         <section>
           <h3>Services</h3>
-          <img alt="My Service Skills" src="https://skillicons.dev/icons?theme=dark&perline=10&i=git,github,gitlab,bitbucket,figma,postman,notion,windows,linux,vscode,visualstudio,eclipse,mastodon,misskey,fediverse,twitter,instagram,discord" />
+
+          <img
+            alt="Git, GitHub, GitLab, Bitbucket, Figma, Postman, Notion, Windows, Linux, Visual Studio Code, Visual Studio, Eclipse, Mastodon, Misskey, Fediverse, Twitter, Instagram, Discord"
+            src="https://skillicons.dev/icons?theme=dark&perline=10&i=git,github,gitlab,bitbucket,figma,postman,notion,windows,linux,vscode,visualstudio,eclipse,mastodon,misskey,fediverse,twitter,instagram,discord" />
         </section>
       </section>
 
