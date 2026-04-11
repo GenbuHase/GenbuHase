@@ -1,0 +1,1 @@
+import{_ as o}from"./BY0jhSkO.js";import{_ as r}from"./DlAUqK2U.js";import{c as a,o as s,b as n,a as c,h as m}from"./iTNBOc9b.js";import"./60wgYqIe.js";import"./XxOQ4bR_.js";const _={};function l(e,i){const t=o;return s(),a("section",null,[n(t,{class:"!text-white !bg-transparent"}),c("div",null,[m(e.$slots,"default")])])}const x=r(_,[["render",l]]);export{x as default};
