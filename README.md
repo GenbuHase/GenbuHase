@@ -48,6 +48,7 @@ and Visual Basic, VBA, VBS, Google Apps Script (GAS), SQL, etc.
 | 2025/03    | 幼稚園教諭二種免許状を取得 |
 | 2025/11    | 生成AI活用普及協会 生成AIパスポート資格を取得 |
 | 2026/04    | 東京都食品衛生協会 食品衛生責任者養成講習会を修了 |
+| 2026/04    | 基本情報技術者試験に合格 |
 
 
 ## 🕴️ Careers and Activities
